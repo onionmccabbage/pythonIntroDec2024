@@ -20,6 +20,7 @@ Monday
 > indentation
 > immutable strings
 - print formatting
+q: function return....
 > lists and tuples
 - memory efficiency
 > identifiers
