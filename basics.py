@@ -22,5 +22,28 @@ t = 'we may encode new line \n and tab \t within quotes'
 # string are an immutable ordinal collection of characters
 s = 'changed' # we are not mutating the string, we are creationg sa new string
 # we may access members of the string using 'slicing'
-print(  )
+print( s[0], t[7] ) # 'c' 'e'
+print( t[3:6] ) # 'may' [start:stop-before:step]
+# we may also choose to iterate over a collection
+for i in s: # the colon indicates the beggining of a code block
+    j=3
+    k='this is indented so it forms part of the current code block'
+    print(i) # this line is indented because it belongs to the code block
 
+# when the lines are no longer indented, that is the end of the code block
+
+# some other collection data-types: list and tuple
+# NB when we populate a list it may be by value or by reference
+l = [3, 8.444, 'coffee', False, s, a, [t, 5]] # this is a list: a mutable ordinal non-sparse collection of any data type
+l[4]='other'
+print(l[0:6:2]) # [start:stop-before:step]
+v = (5, 3, 9, 'immutable', None) # an immutable non-sparse ordinal collection of any data type
+print(type(l), type(v), v, v[4])
+# v[3] = 'no can do' # we cannot mutate members of a tuple
+# we may append, insert, pop or remove with a list
+l.append(v) # NB a complex structure will be isntered by reference
+l.insert(3, 'inserted at 3')
+l.pop() # removed the last member
+l.remove('other') # remove a specific value
+print(l)
+# we may itersate over a list or tuple
