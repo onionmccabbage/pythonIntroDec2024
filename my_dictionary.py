@@ -18,6 +18,8 @@ for (k,v) in d.items(): # NB we MUST say d.items() if we need key and value
     # print(k, v)
     print(f'key {k} has value {v}')
 
+# NB identifiers are case-sensitive
+
 # string formatting
 s1 = 'menu'
 s2 = 'fish'
