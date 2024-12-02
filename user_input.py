@@ -17,9 +17,12 @@ finally:
 # here, if the number is less than zero, we get the positive part
 # if the number is 0-100, we square
 # for larger numbers we ignore...
-if (type(n==int) and n<0):
+if (type(n==int) and n<0): # < > == <= >=     !=
+    # there is no 'like' or 'similar' or 'almost' operator (NB they do exist in testing)
     r = abs(n) # n*-1
 elif (n>100): # elif is optional
     r = 'we only deal with numbers 0-100'
 else: # else is optional
     r = n**2
+
+print(f'We have a result {r} of type {type(r)}')
