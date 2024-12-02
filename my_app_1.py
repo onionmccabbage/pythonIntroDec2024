@@ -2,6 +2,14 @@
 from random import randint
 # we will ask the user for a number, validate and compare to collections
 
+# there is a 'range' object in Python
+x = 2
+r = range(0,10,x) # start, stop-before, step
+print(r, type(r))
+# we may iterate over a range()
+for i in r:
+    print(i)
+
 a = (1,2,3,4)
 b = [5,6,7,8]
 c = randint(-10, 10) # a random integer between these facets
