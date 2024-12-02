@@ -52,6 +52,8 @@ Tuesday
 - exception handling (try-except etc.)
 - debug tools
 - review exercise
+q - pro/cons of using functional code or class-based code
+    know when to use either
 - File input and output
 
 Wednesday
