@@ -30,10 +30,10 @@ Monday
 - for, while, break and pass
 > validate input
 - string manipulation
-- after lunch review exercise
+> after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
 - import, pip, libraries and modules
-- functions
+> functions
 - if __name__ == '__main__'
 - Python 2 awareness...
 
