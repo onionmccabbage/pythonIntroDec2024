@@ -46,4 +46,17 @@ l.insert(3, 'inserted at 3')
 l.pop() # removed the last member
 l.remove('other') # remove a specific value
 print(l)
-# we may itersate over a list or tuple
+# we may iterate over a list or tuple
+for x in l:
+    print(x)
+for y in v:
+    print(y)
+
+# there is also a 'set' collection. A set is NOT ordinal (no particular order to the members)
+p = {5,3,8,6,5} # any value will only be stored ONCE within a set
+p.add(88)
+p.add(True) #.....careful - True evaluates to 1
+p.add(1)
+p.add('unique') # a set may contain a mix of data types
+p.remove(3)
+print(type(p), p)
