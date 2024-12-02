@@ -1,7 +1,11 @@
 # by convention we often call a module 'main' if it is the 
 # entry-point for a collection of Python modules
+# there are several ways to import stuff
 from util import num0_100
 from util import validateIsNumeric
+import time # here we import the entire 'time' library
+from datetime import * # here we import the entire datetime library
+
 # we often choose to encapsulate functionality inside a function
 # the advantage is we can re-use these functions wehenever needed
 # we may choose to pass arguments, and they may have a default value
@@ -28,3 +32,8 @@ print(r5) # None
 
 # can we make use of our imported function
 print( num0_100() ) # see a random int 0-100
+
+# use the time library
+# t = time.time()
+# print(t) # seconds from 1/1/1970
+print( datetime.date(datetime.today()) ) # much more useful than 'time'
