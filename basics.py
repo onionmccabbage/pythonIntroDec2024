@@ -60,3 +60,7 @@ p.add(1)
 p.add('unique') # a set may contain a mix of data types
 p.remove(3)
 print(type(p), p)
+
+# when would we use any particular data type?
+# simple data types (numbers, boolean, string) can persist values we need
+# collections of data (list, tuple, set) can gather related values
