@@ -6,7 +6,8 @@
 def validateIsNumeric(v): # we may choose to write a DOCSTRING at the top of the fn
     '''take a value and return True is the value is numeric. 
     Otherwise return False'''
-    if(type(v)==int or type(v)==float): # we can say 'and' or 'or'
+    # if(type(v)==int or type(v)==float): # we can say 'and' or 'or'
+    if type(v) in (int, float): # does the tyoe exist in the tuple (int, float) ? 
         return True
     else:
         return False
