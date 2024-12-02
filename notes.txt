@@ -20,7 +20,7 @@ Monday
 > indentation
 > immutable strings
 > print formatting
-q: function return....
+> function returns None by default
 > lists and tuples
 - memory efficiency
 > identifiers
