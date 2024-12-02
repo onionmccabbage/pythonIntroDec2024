@@ -16,7 +16,7 @@ Monday
 - where to write code: module (just a file) or immediate python
 - architecture, structure, and professional code best practice
 - print() and input()
-- maths operators and data types
+> maths operators and data types
 > indentation
 > immutable strings
 - print formatting
