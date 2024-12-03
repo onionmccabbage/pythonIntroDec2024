@@ -13,7 +13,7 @@ All my code will be here: https://github.com/onionmccabbage/pythonIntroDec2024
 
 Monday
 > Welcome and intros
-- where to write code: module (just a file) or immediate python
+> where to write code: module (just a file) or immediate python
 - architecture, structure, and professional code best practice
 > print() and input()
 > maths operators and data types
@@ -36,11 +36,11 @@ Monday
 > functions
 
 Tuesday
-- how to access course recordings...
+> how to access course recordings...
   https://neueda.conygre.com/Sites/Programming_in_Python/site/index.html
   scroll down to course recordings
   authenticate with: username student password Belfast2024
-- quick review of where we got to
+> quick review of where we got to
 - Python 2 awareness...
 - if __name__ == '__main__'
 - range, generators
@@ -62,7 +62,6 @@ Wednesday
 - brief review so far
 - functions, *args, **kwargs  
 - functions live in classes, which live in modules which live in packages
-- show ternary
 - PEP8 style guide
 - custom generator and yield
 - global and local scope 
