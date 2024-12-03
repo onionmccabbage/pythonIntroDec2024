@@ -45,6 +45,8 @@ Tuesday
   using sys.argv to inject arguments
   handy for automation - inject config values at run time(avoids using 'input')
 - Python 2 awareness...
+  see https://python.land/migrating-from-python-2-to-3/how-to-migrate-to-python-3
+  
 - if __name__ == '__main__'
 > range, generators
 > comprehensions
