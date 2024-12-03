@@ -32,7 +32,7 @@ Monday
 - string manipulation
 > after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
-- import, pip, libraries and modules
+> import, pip, libraries and modules
 > functions
 
 Tuesday
@@ -53,14 +53,14 @@ Tuesday
   - python –m pip install requests (or any other library you need)
 > using requests (to access web API via HTTP)
   (NB be careful - may not work within WSL)
-- strings with triple quotes
-- exception handling (try-except etc.)
+> strings with triple quotes
+> exception handling (try-except etc.)
 - debug tools   
-- review exercise
+> review exercise
 q - pro/cons of using functional code or class-based code
     know when to use either
-- File input and output
-q can we retrieve text into a dict structure....
+> File input and output
+> we can retrieve text into a dict structure....
 
 Wednesday
 - brief review so far
