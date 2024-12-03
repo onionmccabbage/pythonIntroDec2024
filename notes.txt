@@ -27,20 +27,22 @@ Monday
 > boolean True and False
 > type and type conversion
 > the if statement for conditional logic
-- for, while, break and pass
+> for, while, break and pass
 > validate input
 - string manipulation
 > after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
 - import, pip, libraries and modules
 > functions
-- if __name__ == '__main__'
-- Python 2 awareness...
 
 Tuesday
 - how to access course recordings...
-  authenticate with neueda c0nygre
+  https://neueda.conygre.com/Sites/Programming_in_Python/site/index.html
+  scroll down to course recordings
+  authenticate with: username student password Belfast2024
 - quick review of where we got to
+- Python 2 awareness...
+- if __name__ == '__main__'
 - range, generators
 - comprehensions
 - passing command-line arguments (which are ALWAYS strings)
@@ -50,7 +52,7 @@ Tuesday
 - using requests (to access web API via HTTP)
 - strings with triple quotes
 - exception handling (try-except etc.)
-- debug tools
+- debug tools   
 - review exercise
 q - pro/cons of using functional code or class-based code
     know when to use either

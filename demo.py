@@ -7,5 +7,5 @@ def otherStuff():
 def utility():
     pass
 
-
+print( doStuff() ) # None``
 
