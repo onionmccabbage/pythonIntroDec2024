@@ -9,10 +9,21 @@ def getAllUsers():
     apiUrl = 'https://jsonplaceholder.typicode.com/users'
     response = requests.get(apiUrl) # here we make a call to the URL and grab the response
     # this particular API will return JSON data
-    data = response.json()
+    data = response.json() # or response.xml, response.text response.html ...
     return data
+
+def getOneUser(n):
+    '''Make a request including a para,eter to indicate which user we want'''
+    # we should think about validating n
+    apiUrl = f'https://jsonplaceholder.typicode.com/users/{n}'
+    response = requests.get(apiUrl)
+    singleUser = response.json
+    return singleUser
 
 # exercise the code
 r = getAllUsers()
 print(r, type(r))
+# get one user
+s = getOneUser(7)
+print(s type(s))
 
