@@ -52,6 +52,7 @@ Tuesday
   - python -m ensurepip
   - python –m pip install requests (or any other library you need)
 > using requests (to access web API via HTTP)
+  (NB be careful - may not work within WSL)
 - strings with triple quotes
 - exception handling (try-except etc.)
 - debug tools   
@@ -59,6 +60,7 @@ Tuesday
 q - pro/cons of using functional code or class-based code
     know when to use either
 - File input and output
+q can we retrieve text into a dict structure....
 
 Wednesday
 - brief review so far
@@ -78,6 +80,7 @@ Wednesday
 - special operators and overriding
 - inheritance
 - review exercise
+- venv
 
 
 - where to go from here:
