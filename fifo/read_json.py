@@ -18,11 +18,15 @@ def convert(d):
 def prettyPrint(s):
     '''iterate over a structure to show the results nicely'''
     if type(s) == dict:
-        for (k,v) in s:
+        for (k,v) in s.items(): # remember for dict we need s.items()
             print(f'{k}:{v}')
     elif type(s) == list:
         for i in s:
-            print(f'{i}')
+            if type(i) == dict:
+                for (k,v) in i.items():
+                    print(f'{k}:{v}')
+            else:
+                print(f'{i}')
 
 # exercise the code
 r = readData()
