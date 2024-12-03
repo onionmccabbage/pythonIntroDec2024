@@ -24,5 +24,7 @@ def prettyPrint(s):
         for i in s:
             print(f'{i}')
 
-
 # exercise the code
+r = readData()
+s = convert(r)
+prettyPrint(s)
