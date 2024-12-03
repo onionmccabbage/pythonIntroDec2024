@@ -15,10 +15,11 @@ def getAllUsers():
 
 def getOneUser(n='1'): # n will default to '1' but that can be overriden by any function call
     '''Make a request including a parameter to indicate which user we want'''
-    # we should think about validating n
+    n = str(n) # make sure n is a string
     if n.isnumeric(): # isnumeric will check if a string value is a number (no . no -)
         apiUrl = f'https://jsonplaceholder.typicode.com/users/{n}'
         response = requests.get(apiUrl)
+        # Python will convert the JSON text into a Python structure (dict or list)
         singleUser = response.json() # we call the json() function
         return singleUser # a dict
     else:
