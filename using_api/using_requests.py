@@ -1,4 +1,5 @@
 import requests # remember we may need to pip install requests
+import sys
 # for python 2 we would import urllib3 which works differently
 
 # We may need to access data from an external API (Application Programming Interface)
@@ -12,18 +13,27 @@ def getAllUsers():
     data = response.json() # or response.xml, response.text response.html ...
     return data # a list of dict objects
 
-def getOneUser(n):
-    '''Make a request including a para,eter to indicate which user we want'''
+def getOneUser(n='1'): # n will default to '1' but that can be overriden by any function call
+    '''Make a request including a parameter to indicate which user we want'''
     # we should think about validating n
-    apiUrl = f'https://jsonplaceholder.typicode.com/users/{n}'
-    response = requests.get(apiUrl)
-    singleUser = response.json() # we call the json() function
-    return singleUser # a dict
+    if n.isnumeric(): # isnumeric will check if a string value is a number (no . no -)
+        apiUrl = f'https://jsonplaceholder.typicode.com/users/{n}'
+        response = requests.get(apiUrl)
+        singleUser = response.json() # we call the json() function
+        return singleUser # a dict
+    else:
+        return 'nothing found - we need a numeric value'
 
 # exercise the code
 r = getAllUsers()
 print(r, type(r))
 # get one user
-s = getOneUser(7)
+# check to see if there are additional system arguments
+if len(sys.argv)>1:
+    id = sys.argv[1] # grab the argument
+    s = getOneUser(id)
+else:
+    s = getOneUser() # pass no ID (use the default)
+# s = getOneUser('broken')
 print(s, type(s))
 
