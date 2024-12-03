@@ -44,10 +44,10 @@ Tuesday
 > passing command-line arguments (which are ALWAYS strings)
   using sys.argv to inject arguments
   handy for automation - inject config values at run time(avoids using 'input')
-- Python 2 awareness...
+> Python 2 awareness...
   see https://python.land/migrating-from-python-2-to-3/how-to-migrate-to-python-3
-  
-- if __name__ == '__main__'
+
+> if __name__ == '__main__'
 > range, generators
 > comprehensions
 > to add libraries to python:
