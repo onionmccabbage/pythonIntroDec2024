@@ -20,8 +20,19 @@ def printToFile(t):
 
 def writeToFile(t):
     '''Write the text to a text file without using print'''
-
+    # use try-except
+    try:
+        # create a file access object
+        fout = open('my_written.txt', 'at')
+        # write text into the file (NB write does NOT add a new line by default)
+        fout.write(f'{t}\n') # we choose to add a new line at the end
+        # tidy up
+        fout.close()
+    
+    except Exception as err:
+        print(f'Problem: {err}')
 
 # exercise the code
 info = 'this is very simple'
 printToFile(info)
+writeToFile('this is written to the file')
