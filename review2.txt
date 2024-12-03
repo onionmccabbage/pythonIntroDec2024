@@ -1,4 +1,4 @@
-Python Review 2
+Python Review 2 1hr 10mins (beyond tea break)
 ===============
 Ask the user for a category and also for an id
 Use these to make a call to an API and show the results
@@ -13,7 +13,7 @@ Details:
 Write a new module which asks the user for a 'category' and an 'id' 
 (remember to use input() which always returns a string)
 Validate the user input as follows:
-- The category may only be one of 'users', 'posts, 'albums', 'todos' or 'photos'
+- The category may only be one of 'users', 'albums', 'todos' or 'photos'
   (maybe use the 'in' operator to see if the value is in a tuple of permitted values)
 - The id must be a positive integer in the range 1-8 (or suitable range per category)
 After you ask the user for category and id values, build a string something like this: 
@@ -22,6 +22,9 @@ After you ask the user for category and id values, build a string something like
 
 Use the 'requests' library to make a 'get' call to this end-point API
 Tell the user what was returned by showing a nicely formatted string
+
+NB if 'requests' does not work for you, load local JSON files to get the API data
+(You might then find the specific ID from within the loaded data)
 
 Remember to handle potential exceptions
 
@@ -50,5 +53,3 @@ When a request is made for a user, retreive all posts then show just the posts t
 
 Ask for a secondary category, then retrieve that category (posts, todos, albums or photos) 
 for a specific user ID and display them nicely
-
-NB if 'requests' does not work for you, load local JSON files to get the API data
