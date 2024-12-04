@@ -66,6 +66,8 @@ q - pro/cons of using functional code or class-based code
 
 Wednesday
 - brief review so far
+- any input or output is necessarily slow: I/O bound
+- anything with __nnn__ is part of python (built in features) called 'dunder'
 - functions, *args, **kwargs  
 - functions live in classes, which live in modules which live in packages
 - PEP8 style guide
@@ -83,6 +85,10 @@ Wednesday
 - inheritance
 - review exercise
 - venv
+- end of course feedback:
+  https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/085eeffb-67cd-4230-b4a7-a6072dd984f0
+  also
+
 
 
 - where to go from here:
