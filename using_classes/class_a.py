@@ -13,8 +13,19 @@ class Device: # by convention we use InitialCap
             self.t = new_t
         else:
             raise Exception('Temperature must be a number')
+    def baud(self, new_b):
+        '''validate the baud as a positive int or float'''
+        if new_b>0 and type(new_b) in (int, float):
+            self.b = new_b
+        else:
+            raise Exception('Baud must be a positive number')
+    def __str__(self):
+        '''__str__ is used by any print statement'''
+        return f'This Device is at {self.t}Celcius Baud rate is {self.b}'
+
 
 if __name__ == '__main__':
     # we can make instances of our class
     d1 = Device(12.5, 886) # the __init__ function is called every time we make an instance
-    print(d1, type(d1), d1.t, d1.b)
+    print(d1, type(d1), d1.t, d1.b) # this will vall the __str__ method
+    # d2 = Device('hot', 'fast') # expect an exception
