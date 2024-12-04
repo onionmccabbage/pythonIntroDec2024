@@ -10,7 +10,7 @@ class Device: # by convention we use InitialCap
     def temperature(self, new_t): # this function is a method of this class
         '''validate the temperature is an int or a float. Raise exception if not'''
         if type(new_t) in (int, float):
-            self.t = new_t
+            return new_t
         else:
             raise Exception('Temperature must be a number')
     def baud(self, new_b):
