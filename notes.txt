@@ -91,6 +91,7 @@ q - fix self.t in class_a
 - end of course feedback:
   https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/085eeffb-67cd-4230-b4a7-a6072dd984f0
   also
+  https://apps.powerapps.com/play/17579985-153c-4727-b1f4-8b53e48b5e72?tenantId=92e84ceb-fbfd-47ab-be52-080c6b87953f&Type=ILT&ID=LZU1500463&OID=516707&Title=Programming%20in%20Python&Owner=Bhanu%20Pratap%20Singh%20C
 
 
 
@@ -98,7 +99,6 @@ q - fix self.t in class_a
   https://learnpython.org/
   https://pynative.com/python-exercises-with-solutions/
   the next courses: advanced python then further advanced python
-- end of course feedback
 
 Links
 - Python official site https://python.org

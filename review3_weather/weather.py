@@ -3,8 +3,9 @@ class Weather():
     The Weather class takes a string for the description
     and a floating point number or integer for the temperature
     '''
+    __slots__ = ['__city','__desc', '__temp']
     def __init__(self, city, desc, temp):
-        self.city = city
+        self.city = city # this will call teh city setter method
         self.desc = desc
         self.temp = temp
     @property
@@ -14,7 +15,7 @@ class Weather():
     def city(self, new_city):
         # or isinstance(new_city, str)
         if type(new_city) == str and len(new_city)>2:
-            self.__city = new_city
+            self.__city = new_city # name-mangling so there is no aces to this outside the class
         else:
             self.__city = 'Athlone'
     @property
