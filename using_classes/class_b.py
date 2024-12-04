@@ -2,7 +2,8 @@
 # We need to capture a point in 2-d space
 
 class Point:
-    '''x and y will specify a point on a plane'''
+    '''x and y will specify a point on a plane
+    They are valiated, and raise exceptinos if not valid'''
     __slots__ = ['__x', '__y'] # a list of the only permitted properties for this class
     def __init__(self, x, y):
         '''property x and y will be numeric values'''
@@ -35,5 +36,6 @@ class Point:
 
 if __name__ == '__main__':
     p1 = Point(3,4)
+    print(p1.__doc__) # acess the docstring of the class
     # p1.__x = False # we CANNOT directly acces the value of p1.__x
     print(p1.x, p1) # p1.x will call the property function 'x'
