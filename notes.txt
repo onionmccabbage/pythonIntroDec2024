@@ -72,7 +72,7 @@ Wednesday
 > functions, *args, **kwargs  
 > functions live in classes, which live in modules which live in packages
 > PEP8 style guide https://pep8.org/
-- custom generator and yield
+> custom generator and yield
 > global and local scope 
 > data modelling structures: 
     use built in structures until they do not suit the purpose (then use classes)
@@ -88,7 +88,8 @@ Wednesday
 > review exercise
 - what is in the next course?
 - certification options.....?
-- venv
+- venv (most tools will create their own venv)
+  see https://python.land/virtual-environments/virtualenv
 - end of course feedback:
   https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/085eeffb-67cd-4230-b4a7-a6072dd984f0
   also
