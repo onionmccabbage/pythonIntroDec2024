@@ -1,11 +1,22 @@
+def letsFindOut():
+    '''can we use slots within a function'''
+    __slots__ = ['__x'] # pointless - __slots__ only work within a class
+    # what about mangling...
+    __x = 'test' # yep - we can use name mangling within any structure
+
+letsFindOut.__canWeDoThis = 'ummmmm'
+# print(letsFindOut.__x) # this should fail (due to name-mangling)
+
+
 class Weather():
     '''
     The Weather class takes a string for the description
     and a floating point number or integer for the temperature
     '''
+    # NB slots SHOULD be names with __
     __slots__ = ['__city','__desc', '__temp']
     def __init__(self, city, desc, temp):
-        self.city = city # this will call teh city setter method
+        self.city = city # this will call the city setter method
         self.desc = desc
         self.temp = temp
     @property
