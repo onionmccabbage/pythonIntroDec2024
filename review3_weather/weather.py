@@ -48,8 +48,8 @@ class Weather():
         else:
             self.__temp = 12 # a reasonable default
     def __str__(self):
-        # output a nicely formatted weather report
-        report  = f'The weather in {self.city} is {self.desc} at {self.temp}C'
+        # output a nicely formatted weather report       format to specific decimal places
+        report  = f'The weather in {self.city} is {self.desc} at {self.temp:0.2f}C'
         return report
 
 

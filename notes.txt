@@ -14,7 +14,7 @@ All my code will be here: https://github.com/onionmccabbage/pythonIntroDec2024
 Monday
 > Welcome and intros
 > where to write code: module (just a file) or immediate python
-- architecture, structure, and professional code best practice
+> architecture, structure, and professional code best practice
 > print() and input()
 > maths operators and data types
 > indentation
@@ -22,14 +22,14 @@ Monday
 > print formatting
 > function returns None by default
 > lists and tuples
-- memory efficiency
+> memory efficiency
 > identifiers
 > boolean True and False
 > type and type conversion
 > the if statement for conditional logic
 > for, while, break and pass
 > validate input
-- string manipulation
+> string manipulation
 > after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
 > import, pip, libraries and modules
@@ -57,9 +57,9 @@ Tuesday
   (NB be careful - may not work within WSL)
 > strings with triple quotes
 > exception handling (try-except etc.)
-- debug tools   
+> debug tools   
 > review exercise
-q - pro/cons of using functional code or class-based code
+> pro/cons of using functional code or class-based code
     know when to use either
 > File input and output
 > we can retrieve text into a dict structure....
@@ -74,19 +74,20 @@ Wednesday
 > PEP8 style guide https://pep8.org/
 - custom generator and yield
 > global and local scope 
-- data modelling structures: 
+> data modelling structures: 
     use built in structures until they do not suit the purpose (then use classes)
 > Objects and Classes (OOP)
   classes have properties (something belonging to the class) and methods (something the class can do)
-q - fix self.t in class_a
 > __slots__
 > get/set as property decorators @property
 > name mangling (__) and slots
 > properties, methods, __str__
 > intrinsic attributes: __doc__ etc.
-- special operators and overriding
+> special operators and overriding
 > inheritance
-- review exercise
+> review exercise
+- what is in the next course?
+- certification options.....?
 - venv
 - end of course feedback:
   https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/085eeffb-67cd-4230-b4a7-a6072dd984f0
