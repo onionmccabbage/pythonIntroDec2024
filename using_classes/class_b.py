@@ -5,22 +5,32 @@ class Point:
     '''x and y will specify a point on a plane'''
     def __init__(self, x, y):
         '''property x and y will be numeric values'''
-        self.__x = x # __x is called 'name mangling'
-        self.__y = y
+        self.x = x # call x setter method
+        self.y = y # __y is called 'name mangling'
     def __str__(self):
         '''used by any print() calls'''
         return f'Point is at x:{self.__x} and y:{self.__y}'
     # we may declare property decorators to allow changes to property values
     @property # decorator adds functionality to an existing function
-    def x(self):
+    def x(self): # this is a getter (or an accessor)
         return self.__x
     @x.setter
-    def x(self, new_x):
+    def x(self, new_x): # this is a setter (or a mutator)
         '''validate that the incoming new_x is a numeric value'''
         if type(new_x) in (int, float):
             self.__x = new_x
         else:
             raise Exception('X must be numemric')
+    @property 
+    def y(self):
+        return self.__y
+    @y.setter
+    def y(self, new_y): 
+        '''validate that the incoming new_y is a numeric value'''
+        if type(new_y) in (int, float):
+            self.__y = new_y
+        else:
+            raise Exception('Y must be numemric')
 
 if __name__ == '__main__':
     p1 = Point(3,4)
