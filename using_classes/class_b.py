@@ -13,6 +13,9 @@ class Point:
     def __str__(self):
         '''used by any print() calls'''
         return f'Point is at x:{self.__x} and y:{self.__y}'
+    def __repr__(self):
+        '''used by immediate python'''
+        return f'Point is at x:{self.__x} and y:{self.__y}'
     # we may declare property decorators to allow changes to property values
     @property # decorator adds functionality to an existing function
     def x(self): # this is a getter (or an accessor)
