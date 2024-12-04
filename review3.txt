@@ -1,4 +1,4 @@
-Python Review 3
+Python Review 3 45 minutes until 2:25
 ===============
 - Alter these instructions to suit your thinking
 - Aim for good architecture (maybe use separate modules, remember 'if __name__...')
@@ -18,7 +18,7 @@ In your Weather class, override __str__ so the class prints nicely, something li
 
 Exercise the code by making an instance of your Weather class with suitable values
 
-Print the values from the weather instance to a text file (maybe include a timestamp)
+If time, print the values from the weather instance to a text file (maybe include a timestamp)
 Also provide a mechanism to read back the weather reports from the text file
 
 Optional
