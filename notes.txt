@@ -66,6 +66,7 @@ q - pro/cons of using functional code or class-based code
 
 Wednesday
 - brief review so far
+- in Python EVERTHING is an Object - every function, every class every module....
 - any input or output is necessarily slow: I/O bound
 - anything with __nnn__ is part of python (built in features) called 'dunder'
 - functions, *args, **kwargs  

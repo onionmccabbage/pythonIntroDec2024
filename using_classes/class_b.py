@@ -1,6 +1,7 @@
 # using name mangling and property decorators
 # We need to capture a point in 2-d space
 
+# by default EVERYTHING inherits from object
 class Point:
     '''x and y will specify a point on a plane
     They are valiated, and raise exceptinos if not valid'''
