@@ -15,8 +15,9 @@ class Device: # by convention we use InitialCap
             raise Exception('Temperature must be a number')
     def baud(self, new_b):
         '''validate the baud as a positive int or float'''
-        if new_b>0 and type(new_b) in (int, float):
-            self.b = new_b
+        # NB check the type before checking it's bigger than zero!!
+        if type(new_b) in (int, float) and new_b>0 :
+            return new_b
         else:
             raise Exception('Baud must be a positive number')
     def __str__(self):
