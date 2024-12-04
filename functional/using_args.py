@@ -13,8 +13,14 @@ def k(**kwargs):
     for k, v in kwargs.items():
         print(k, v)
 
+def both(*args, **kwargs):
+    '''gather args and kwargs into a tuple and a dict'''
+    print(args, kwargs)
+
 if __name__ == '__main__':
     pos(4, 5, True, 'ok') # positional arguments
     pos(['hello', 'lunch'], {5,5,5,4,3,2}, False)
     #
     k(x=3, y=9, j=[], l=pos ) # keyword arguments always specify something=value
+    # NB positional arguments must come before keyword argument
+    both(5, 'fff', {}, (3,), fluffy='grrrr', dobbin=True, ooblywoobly='ok')
