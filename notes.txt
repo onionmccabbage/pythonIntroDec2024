@@ -33,6 +33,10 @@ Monday
 > after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
 > import, pip, libraries and modules
+  to see what libraries are already installed: pip list
+  a library could be as simple as one module
+  ...or a library can be a complex collection of functionality
+  - code can introspect a library to query the __doc__ etc.
 > functions
 
 Tuesday
@@ -86,9 +90,9 @@ Wednesday
 > special operators and overriding
 > inheritance
 > review exercise
-- what is in the next course?
-- certification options.....?
-- venv (most tools will create their own venv)
+> what is in the next course?
+> certification options.....?
+> venv (most tools will create their own venv)
   see https://python.land/virtual-environments/virtualenv
 - end of course feedback:
   https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/085eeffb-67cd-4230-b4a7-a6072dd984f0
@@ -105,6 +109,3 @@ Wednesday
 Links
 - Python official site https://python.org
 - PEP8 style guide https://www.python.org/dev/peps/pep-0008/
-
-
-End of course feedback (Wednesday)
